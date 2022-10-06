@@ -1,8 +1,8 @@
 name: Check data files freshness
 
-on:
-  schedule:
-    - cron: 15 8 * * *
+# on:
+#  schedule:
+#    - cron: 15 8 * * *
 
 jobs:
   check-file-freshness:
